@@ -1,16 +1,17 @@
-# revision 24140
+# revision 29660
 # category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
+# catalog-ctan /macros/xetex/latex/xecolor
+# catalog-date 2013-04-04 12:47:47 +0200
+# catalog-license lppl1.3
+# catalog-version 0.1
 Name:		texlive-xecolor
-Version:	20111104
-Release:	2
-Summary:	TeXLive xecolor package
+Epoch:		1
+Version:	0.1
+Release:	1
+Summary:	Support for color in XeLaTeX
 Group:		Publishing
-URL:		http://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
+URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/xecolor
+License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xecolor.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xecolor.doc.tar.xz
 BuildArch:	noarch
@@ -19,7 +20,9 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-TeXLive xecolor package.
+This is a simple package which defines about 140 different
+colours using XeTeX's colour feature. The colours can be used
+in bidirectional texts without any problem.
 
 %post
     %{_sbindir}/texlive.post
@@ -43,16 +46,3 @@ TeXLive xecolor package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111104-2
-+ Revision: 757588
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111104-1
-+ Revision: 719923
-- texlive-xecolor
-- texlive-xecolor
-- texlive-xecolor
-
