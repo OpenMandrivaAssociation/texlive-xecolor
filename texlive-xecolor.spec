@@ -4,7 +4,7 @@ Version:	29660
 Release:	2
 Summary:	Support for color in XeLaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/xecolor
+URL:		https://www.ctan.org/tex-archive/macros/xetex/latex/xecolor
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xecolor.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xecolor.doc.r%{version}.tar.xz
