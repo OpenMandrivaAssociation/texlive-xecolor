@@ -1,7 +1,7 @@
 Name:		texlive-xecolor
 Epoch:		1
-Version:	29660
-Release:	2
+Version:	77677
+Release:	1
 Summary:	Support for color in XeLaTeX
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/xetex/latex/xecolor
